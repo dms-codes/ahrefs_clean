@@ -1,27 +1,26 @@
-def query():
-    text = """
-1. #IndofoodBumbuRacikBubuk
-2. #BumbuKering
-3. #BubukBumbu
-4. #NasiGoreng
-5. #TempeGoreng
-6. #IkanGoreng
-7. #SayurLodeh
-8. #SayurSop
-9. #Tumis
-10. #AyamGoreng
-"""
-    title = """
-INDOFOOD Bumbu Racik Bubuk 20g, PER SASET
-
-https://shope.ee/1LEVvplIgu
-
-"""
-
+def query(title: str,text: str) -> None:
     res = ' '.join(['#' + r.split('#')[1] for r in text.split('\n') if r.strip()])
     print(title+'\n'+res)
     print()
 
 
 if __name__ == '__main__':
-    query()
+    title = """
+EIGER MIST FOREST 1.1 WALLET
+
+https://shope.ee/10bgULjrjd
+
+"""
+    text = """
+1. #EigerMistForest
+2. #EigerWallet
+3. #MistForestWallet
+4. #LeatherWallet
+5. #CanvasWallet
+6. #CardSlots
+7. #MoneyHolder
+8. #HiddenPocket
+9. #EverydayCarry
+10. #MinimalistWallet
+"""
+    query(title, text)

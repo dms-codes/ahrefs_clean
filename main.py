@@ -1,20 +1,20 @@
 def query():
     text = """
-1. #MieSarimiKalduAyam
-2. #70gr
-3. #MieMurah
-4. #Shopee
-5. #InstantNoodles
-6. #ChickenNoodles
-7. #AffordableNoodles
-8. #QuickMeal
-9. #ConvenientFood
-10. #NoodleLovers
+1. #IndofoodBumbuRacikBubuk
+2. #BumbuKering
+3. #BubukBumbu
+4. #NasiGoreng
+5. #TempeGoreng
+6. #IkanGoreng
+7. #SayurLodeh
+8. #SayurSop
+9. #Tumis
+10. #AyamGoreng
 """
     title = """
-Mie Sarimi Kaldu Ayam @70gr - Mie Murah
+INDOFOOD Bumbu Racik Bubuk 20g, PER SASET
 
-https://shope.ee/7KVj4Tpkil
+https://shope.ee/1LEVvplIgu
 
 """
 
